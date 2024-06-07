@@ -30,9 +30,15 @@
 
 数据集说明
 -
-数据集压缩包存放在，将其解压文件移动到/homework1_traditional_image_classification/data文件夹下，工程文件中的代码即可正常运行。
+代码可以自行下载数据集。
+若想使用已下载好的数据集，只需将FashionMNIST数据集文件夹移动到/homework1_traditional_image_classification/data文件夹下，这时工程文件中的代码便可正常运行。
 
 依赖包说明
 -
 在命令行窗口中运行以下指令即可安装所需的依赖包。
-    pip install -r requirements.txt.
+     
+      pip install -r requirements.txt.
+
+其他说明
+-
+在运行SVM_main.py前，需要先运行feature_extraction文件夹中的代码以提取特征。
